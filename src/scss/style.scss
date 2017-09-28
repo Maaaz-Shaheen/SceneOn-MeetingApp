@@ -1,0 +1,53 @@
+$bg-color:#333333;
+$font-color:#ffffff;
+$primary-color:#008ed6;
+$dark-overlay: rgba(0,0,0,0.7);
+$dua-card-bg: #4f87d6;
+
+body{
+  color: #000000;
+  background:url('../img/bg.jpeg') no-repeat center top fixed;
+  background-size:cover;
+  background-attachment:fixed;
+
+}
+
+
+
+#home-section{
+
+  .home-inner{
+    padding-top:150px;
+  }
+  
+  .card-form{
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    .form-inline{
+      opacity: 1;
+    }
+  
+  
+  }
+  
+}
+.navbar{
+  border-bottom: $primary-color 3px solid;
+  background-color : #FFFFFF;
+  opacity: 0.95;
+  color: rgba(0,0,0, 1);
+}
+
+
+
+
+@media(max-width:576px){
+  nav .container{
+    width:100%;
+  }
+}
+
+hr{
+  background-color: #FFFFFF;
+}
